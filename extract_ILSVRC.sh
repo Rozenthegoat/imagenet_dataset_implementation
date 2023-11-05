@@ -75,6 +75,7 @@ wget -qO- https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/
 #
 # Check total files after extract
 #
+cd ..
 find train/ -name "*.JPEG" | wc -l
 #  1281167
 find val/ -name "*.JPEG" | wc -l
